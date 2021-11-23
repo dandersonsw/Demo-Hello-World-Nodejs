@@ -1,0 +1,8 @@
+---
+applications:
+  - name: Demo-Hello-World-Nodejs
+    memory: 192M
+    instances: 1
+    random-route: false
+    buildpacks:
+      - nodejs_buildpack
